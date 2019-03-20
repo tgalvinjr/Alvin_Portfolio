@@ -30,6 +30,7 @@
     left: 365px;
     top: -295px;
     font-size: 150%;
+    padding-bottom: 100px;
 }
 img{
     style: width: 500px; height: 500px;
@@ -37,9 +38,15 @@ img{
     margin-top:5px;
 }
 .basics {
-    background-color: blueviolet;
+    background-color: #fffda4;
     text-align: center;
     position: relative;
     left: 42px;
     width: 96%;
+}
+body {
+background-color: #cccccc;
+}
+.body_layout {
+    font-size: 100%;
 }
