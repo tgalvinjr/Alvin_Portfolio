@@ -1,11 +1,3 @@
-.koenigsegg {
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 .info_text {
     text-align: center;
     position: absolute;
@@ -14,23 +6,34 @@
     transform: translate(-50%, -50%);
     color: black;
   }
-  .body_layout {
-    background-color: #cccccc;
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.body_layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr
-}
-.interests { 
-    display: grid;
-    grid-template-rows: 1fr 1fr
+    img {
+        float: left;
+    }
+.interests {
+    background-color: blue;
+    width: 250px;
+    border: 2px;
+    height: auto;
+    padding: 20px;
+    margin-left: 45%;
+    width: 300px;
+    margin-top: 50px;
 }
 .projects {
-    display: grid;
-    grid-template-rows: 1fr 1fr
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color: yellow;
+    padding: 20px;
+    width: 300px;
+}
+img{
+    style: width: 500px; height: 500px;
+    margin: 40px;
+}
+.basics {
+    background-color: blueviolet;
+    text-align: center;
+}
+.btn {
+    position: center;
 }
