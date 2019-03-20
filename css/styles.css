@@ -10,7 +10,7 @@
         float: left;
     }
 .interests {
-    background-color: blue;
+    background-color: rgb(255, 153, 153);
     width: 250px;
     border: 2px;
     height: auto;
@@ -23,7 +23,7 @@
 .projects {
     margin-top: 20px;
     margin-left: 45%;
-    background-color: yellow;
+    background-color: rgb(255, 255, 108);
     padding: 20px;
     width: 300px;
     position: relative;
@@ -33,19 +33,22 @@
     padding-bottom: 100px;
 }
 img{
-    style: width: 500px; height: 500px;
+    width: 500px; height: 500px;
     margin: 40px;
     margin-top:5px;
 }
 .basics {
-    background-color: #fffda4;
+    background-color: #a7a7a7;
     text-align: center;
     position: relative;
     left: 42px;
     width: 96%;
 }
 body {
-background-color: #cccccc;
+background-image: url("../img/black.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 1000px;
 }
 .body_layout {
     font-size: 100%;
