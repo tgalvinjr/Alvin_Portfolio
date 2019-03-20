@@ -28,7 +28,7 @@
 .projects {
     margin-top: 20px;
     margin-left: 45%;
-    background-color: rgb(255, 255, 108);
+    background-color: rgb(255, 255, 108, 0.4);
     padding: 20px;
     width: 300px;
     position: relative;
